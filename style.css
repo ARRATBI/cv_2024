@@ -1,0 +1,64 @@
+/* Corps général */
+body {
+    background-color: #fbe8d3; /* Couleur terre apaisante pour le fond */
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* En-tête */
+  h1, h2 {
+    color: #d32f2f; /* Rouge Feu pour les titres */
+    font-weight: bold;
+  }
+  
+  p {
+    color: #333; /* Texte en noir pour une meilleure lisibilité */
+  }
+  
+  /* Sections */
+  .section-title {
+    background-color: #e65100; /* Orange feu pour les titres de section */
+    color: white;
+    padding: 10px;
+    border-left: 5px solid #ffeb3b; /* Bordure dorée */
+    margin-bottom: 20px;
+  }
+  
+  /* Cartes d'expérience */
+  .card {
+    background-color: #ffccbc; /* Douce touche orangée pour les cartes */
+    border: 1px solid #d32f2f; /* Rouge pour la bordure des cartes */
+    margin-bottom: 20px;
+  }
+  
+  .card-title {
+    color: #d32f2f; /* Rouge pour les titres de carte */
+  }
+  
+  .card-subtitle {
+    color: #ffeb3b; /* Or pour les sous-titres des cartes */
+  }
+  
+  .card-text {
+    color: #4e342e; /* Couleur brune pour un effet de stabilité */
+  }
+  
+  /* Boutons personnalisés */
+  .btn-custom {
+    background-color: #d32f2f; /* Rouge pour les boutons */
+    color: white;
+    border: none;
+  }
+  
+  .btn-custom:hover {
+    background-color: #b71c1c; /* Rouge plus sombre au survol */
+  }
+  
+  /* Liens */
+  a {
+    color: #ff9800; /* Orange pour les liens */
+  }
+  
+  a:hover {
+    color: #ff5722; /* Orange plus intense au survol */
+  }
+  
